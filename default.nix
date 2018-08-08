@@ -7,6 +7,7 @@ in pkgs.stdenv.mkDerivation {
     buildInputs = [
       pkgs.rustc
       pkgs.cargo
+      pkgs.rustfmt
       frameworks.Security
       frameworks.CoreFoundation
       frameworks.CoreServices
